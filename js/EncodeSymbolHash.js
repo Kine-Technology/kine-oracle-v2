@@ -1,0 +1,41 @@
+const web3 = require('web3');
+
+function main(){
+  let empty = web3.utils.keccak256(web3.utils.encodePacked(''));
+  let btc = web3.utils.keccak256(web3.utils.encodePacked('BTC'));
+  let dai = web3.utils.keccak256(web3.utils.encodePacked('DAI'));
+  let eth = web3.utils.keccak256(web3.utils.encodePacked('ETH'));
+  let kine = web3.utils.keccak256(web3.utils.encodePacked('KINE'));
+  let mcd = web3.utils.keccak256(web3.utils.encodePacked('MCD'));
+  let usdt = web3.utils.keccak256(web3.utils.encodePacked('USDT'));
+  let usdc = web3.utils.keccak256(web3.utils.encodePacked('USDC'));
+  let pot = web3.utils.keccak256(web3.utils.encodePacked('POT'));
+  let eos = web3.utils.keccak256(web3.utils.encodePacked('EOS'));
+  let anc = web3.utils.keccak256(web3.utils.encodePacked('ANC'));
+  let tkn = web3.utils.keccak256(web3.utils.encodePacked('TKN'));
+  let xKINE = web3.utils.keccak256(web3.utils.encodePacked('xKINE'));
+  let BNB = web3.utils.keccak256(web3.utils.encodePacked('BNB'));
+  let KUSD = web3.utils.keccak256(web3.utils.encodePacked('KUSD'));
+  let UNI_WBTC_USDT = web3.utils.keccak256(web3.utils.encodePacked('UNI-WBTC-USDT'));
+  let LP_KINE_BNB = web3.utils.keccak256(web3.utils.encodePacked('LP-KINE-BNB'));
+  let LP_KUSD_USDT = web3.utils.keccak256(web3.utils.encodePacked('LP-KUSD-USDT'));
+  console.log("empty:", empty);
+  console.log("BTC:", btc);
+  console.log("DAI:", dai);
+  console.log("ETH:", eth);
+  console.log("KINE:", kine);
+  console.log("MCD:", mcd);
+  console.log("USDT:", usdt);
+  console.log("USDC:", usdc);
+  console.log("POT:", pot);
+  console.log("EOS:", eos);
+  console.log("ANC:", anc);
+  console.log("TKN:", tkn);
+  console.log("xKINE:", xKINE);
+  console.log("BNB:", BNB);
+  console.log("KUSD:", KUSD);
+  console.log("UNI-WBTC-USDT:", UNI_WBTC_USDT);
+  console.log("LP-KINE-BNB:", LP_KINE_BNB);
+  console.log("LP-KUSD-USDT:", LP_KUSD_USDT);
+}
+main();
